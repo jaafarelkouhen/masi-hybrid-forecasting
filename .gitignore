@@ -1,0 +1,61 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project artifacts
+outputs/
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# External reference repos (kept on disk for inspiration, not versioned —
+# they live in their own upstream repos and trigger Windows MAX_PATH issues)
+docs/references/external/
+
+# Large binary reference material (PDFs)
+docs/references/**/*.pdf
+# Claude / AI assistant local files
+.claude/
+CLAUDE.md
+.claude.json
+claude/
+*claude*
+
+# Jupyter notebooks temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Notebook execution/cache artifacts
+*.nbconvert.ipynb
+*.ipynb~
+
+# Jupyter / IPython cache
+.profile_default/
+ipython_config.py
