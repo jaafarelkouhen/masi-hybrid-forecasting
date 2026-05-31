@@ -13,7 +13,6 @@ sphinx:
   fail_on_warning: false
 
 formats:
-  - htmlzip
   - pdf
 
 python:
