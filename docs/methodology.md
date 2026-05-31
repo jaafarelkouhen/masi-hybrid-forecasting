@@ -1,7 +1,6 @@
 # Methodology
 
 Hybrid forecasting system for the MASI (Casablanca Stock Exchange) index.
-Reference rules and historical constraints live in [`project_spec.md`](project_spec.md).
 
 ## 1. Objective
 

@@ -122,7 +122,7 @@ Strict temporal split **TRAIN 2007–2020 / VAL 2020–2022 / TEST 2022–2026**
 
 Four mandatory baselines before deep learning : Naive (RW), Historical mean,
 ARIMA, Random Forest. ARIMA wins on RMSE, sets the floor any CNN-LSTM has to
-beat (Rule 8 of `docs/project_spec.md`).
+beat.
 
 | Metrics summary | Predictions VAL |
 |---|---|
@@ -314,5 +314,4 @@ stack**, DSR ≈ 0.997 under the historical protocol, robust to 5/10/20 bps cost
 stable P1 ≈ P2.
 
 Current artifacts live under `outputs/`, with figures in `reports/figures/`.
-See [`docs/pipeline_index.md`](docs/pipeline_index.md) for the current step-by-step index and
-[`docs/migration_plan.md`](docs/migration_plan.md) for the historical migration notes.
+See [`docs/pipeline_index.md`](docs/pipeline_index.md) for the current step-by-step index.

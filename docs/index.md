@@ -24,8 +24,6 @@ under a strict walk-forward anti-leakage methodology.
 - [Data pipeline](data_pipeline.md)
 - [Visual gallery — all 44 figures](gallery.md)
 - [Literature review](literature_review.md)
-- [Project specification (historical)](project_spec.md)
-- [Migration plan (historical)](migration_plan.md)
 
 ---
 
@@ -47,14 +45,6 @@ gallery
 
 anti_leakage
 literature_review
-```
-
-```{toctree}
-:maxdepth: 1
-:caption: Historical references
-
-project_spec
-migration_plan
 ```
 
 ---

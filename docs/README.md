@@ -11,8 +11,6 @@ Written documentation for the engine. Start with
 | [`anti_leakage.md`](anti_leakage.md) | The L1–L8 anti-leakage rules — the core methodological contract. |
 | [`data_pipeline.md`](data_pipeline.md) | How data moves from raw to model-ready. |
 | [`literature_review.md`](literature_review.md) | Background and references. |
-| [`project_spec.md`](project_spec.md) | Original spec and historical constraints. |
-| [`migration_plan.md`](migration_plan.md) / [`README_legacy.md`](README_legacy.md) | Historical migration notes (kept for traceability). |
 | [`conf.py`](conf.py) + [`requirements.txt`](requirements.txt) | Sphinx config + build deps for Read the Docs. |
 
 > `docs/references/` (PDFs of papers + cloned third-party repos) is a **private

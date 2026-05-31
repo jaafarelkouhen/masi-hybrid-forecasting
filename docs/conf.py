@@ -52,15 +52,20 @@ exclude_patterns = [
     ".DS_Store",
     "references/**",
     "README.md",
-    "README_legacy.md",
 ]
 
-html_theme = "sphinx_rtd_theme"
+html_theme = "shibuya"
 html_theme_options = {
-    "navigation_depth": 4,
-    "collapse_navigation": False,
-    "sticky_navigation": True,
-    "titles_only": False,
+    "accent_color": "blue",
+    "github_url": "https://github.com/jaafarelkouhen/masi-hybrid-forecasting",
+    "nav_links": [
+        {"title": "Home", "url": "index"},
+        {"title": "Pipeline", "url": "pipeline_index"},
+        {"title": "Methodology", "url": "methodology"},
+        {"title": "Anti-leakage", "url": "anti_leakage"},
+        {"title": "Data pipeline", "url": "data_pipeline"},
+        {"title": "Gallery", "url": "gallery"},
+    ],
 }
 html_title = "MASI Hybrid Forecasting"
 html_short_title = "MASI Forecasting"

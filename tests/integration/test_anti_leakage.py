@@ -4,7 +4,7 @@ These tests read the canonical artifacts under outputs/etape{N}/ and assert
 that the pipeline produced them without temporal leakage. They auto-skip when
 outputs/ has not been populated.
 
-Anti-leakage rules (from project_spec.md / docs/anti_leakage.md):
+Anti-leakage rules (from docs/anti_leakage.md):
   L1 — scaler / quantiles fit on TRAIN only
   L3 — rolling features strictly causal (shift(1).rolling(window))
   L6 — walk-forward gap between TRAIN/VAL/TEST splits

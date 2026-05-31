@@ -51,8 +51,6 @@ ou en paper-trading hors période 2022-2026.
 
 ## Notes
 
-- Les chemins de l'ancien lab sont conservés seulement dans `docs/migration_plan.md`,
-  `docs/README_legacy.md` et `docs/project_spec.md` comme trace historique.
 - Les artefacts `outputs/`, `data/raw/` et `reports/figures/` sont ignorés par
   git; il faut les régénérer ou les fournir séparément pour un clone propre.
 - La règle L8 est partielle : le GARCH et le HMM sont fit sur TRAIN et appliqués
